@@ -1,0 +1,15 @@
+area of  circle 
+
+#include <iostream.h>
+#include <conio.h>
+
+void main() {
+    clrscr(); // Clear the screen (specific to Turbo C++)
+    float area,radius;
+    cout << "Enter the Radius : ";
+    cin >> radius;
+    area = 3.14 * radius * radius
+    cout << "The area of circle is: " <<area;  // Display the result
+    getch(); // Wait for a key press before exiting
+}
+

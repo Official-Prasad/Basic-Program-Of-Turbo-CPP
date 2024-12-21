@@ -1,0 +1,17 @@
+subtraction of two integer
+
+#include <iostream.h>
+#include <conio.h>
+
+void main() {
+    clrscr(); // Clear the screen (specific to Turbo C++)   
+    float digit1, digit2, sub;
+    cout << "Enter the first digit: ";
+    cin >> digit1;
+    cout << "Enter the second digit: ";
+    cin >> digit2;
+    sub = digit1 - digit2; // Calculate the subtraction
+    cout << "The subtraction of " << digit1 << " and " << digit2 << " is: " << sub;  // Display the result
+    getch(); // Wait for a key press before exiting
+}
+
