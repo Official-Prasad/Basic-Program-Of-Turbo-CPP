@@ -1,0 +1,16 @@
+division of two integer
+
+#include <iostream.h>
+#include <conio.h>
+
+void main() {
+    clrscr(); // Clear the screen (specific to Turbo C++)
+    float digit1, digit2, div;
+    cout << "Enter the first digit: ";
+    cin >> digit1;
+    cout << "Enter the second digit: ";
+    cin >> digit2;
+    div = digit1 / digit2; // division
+    cout << "The division of " << digit1 << " and " << digit2 << " is: " << div;  // Display the result
+    getch(); // Wait for a key press before exiting
+}

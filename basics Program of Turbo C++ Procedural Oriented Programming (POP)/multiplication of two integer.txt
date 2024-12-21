@@ -1,0 +1,16 @@
+multiplication of two integer
+
+#include <iostream.h>
+#include <conio.h>
+
+void main() {
+    clrscr(); // Clear the screen (specific to Turbo C++)
+    float digit1, digit2, multi;
+    cout << "Enter the first digit: ";
+    cin >> digit1;
+    cout << "Enter the second digit: ";
+    cin >> digit2;
+    multi = digit1 * digit2; // multiplication
+    cout << "The multiplication of " << digit1 << " and " << digit2 << " is: " << multi;  // Display the result
+    getch(); // Wait for a key press before exiting
+}
